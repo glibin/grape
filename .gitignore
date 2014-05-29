@@ -1,0 +1,10 @@
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+*.iml
+
+ebin
+deps
+.rebar

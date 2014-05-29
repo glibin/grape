@@ -1,0 +1,12 @@
+{application, grape,
+ [
+  {description, "Yet another pub/sub"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { grape_app, []}},
+  {env, []}
+ ]}.
