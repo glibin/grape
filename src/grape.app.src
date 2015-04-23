@@ -1,0 +1,15 @@
+{application, grape, [
+	{description, ""},
+	{vsn, "0.1.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		lager,
+		mnesia
+	]},
+	{mod, {grape_app, []}},
+	{env, []}
+]}.
